@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       >
         <div className="justify-center pl-13 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-sm md:max-w-[750px]">
           <h1 className="text-[40px] md:text-[50px] text-white font-semibold ">
-            Hi I'm Mani.
+            Hi I&apos;m Mani.
             <span className="block text-[20px] md:text-[50] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Backend Developer
