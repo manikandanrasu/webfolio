@@ -1,19 +1,28 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
 import { Socials } from "@/constants";
 import Image from "next/image";
-import React from "react";
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
-      <div className="flex flex-row gap-3 items-center">
-        <h1 className="text-white text-[25px] font-semibold">
-          M{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            K{" "}
-          </span>
-        </h1>
-      </div>
+    <div 
+      className={`fixed top-0 left-0 z-[40] w-full h-[100px] flex justify-between items-center px-10 md:px-20 transition-all duration-300 ${
+        scrolled ? "bg-white/40 backdrop-blur-md shadow-sm" : "bg-transparent"
+      }`}
+    >
+      <div className="text-black text-normal font-[montserrat] font-medium tracking-wider">mani.codes</div>
 
       <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
@@ -23,7 +32,6 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-
             <Image
               src={social.src}
               alt={social.name}

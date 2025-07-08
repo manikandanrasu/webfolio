@@ -70,7 +70,7 @@ export const Socials = [
     },
     {
       name: "LinkedIn",
-      src: "/LinkedIn.svg",
+      src: "/icons8-linkedin.svg",
       href: "https://www.linkedin.com/in/mani-r",
     },
   ];
@@ -79,7 +79,7 @@ export const Socials = [
     {
       title: "Stock data visualization",
       text: "the dectiosjdnc dcdjcb jwwdwdjin sksownnxjnx sjssxnjxxnsx jasbdxjsb sxbds skx jbcdxsjjc qhd",
-      src: "/financial-data.jpg",
+      src: "/spotify-clone.jpg",
     },
     {
       title: "Spotify-clone",
@@ -89,7 +89,12 @@ export const Socials = [
     {
       title: "Portfolio website",
       text: "the dectiosjdnc dcdjcb jwwdwdjin sksownnxjnx sjssxnjxxnsx jasbdxjsb sxbds skx jbcdxsjjc qhd",
-      src: "/main-bg.webp",
+      src: "/spotify-clone.jpg",
+    },
+    {
+      title: "data visualization",
+      text: "the dectiosjdnc dcdjcb jwwdwdjin sksownnxjnx sjssxnjxxnsx jasbdxjsb sxbds skx jbcdxsjjc qhd",
+      src: "/spotify-clone.jpg",
     },
   ];
 
