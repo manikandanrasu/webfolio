@@ -4,10 +4,10 @@ import TextWipeAnimation from "./components/TextWipeAnimation";
 
 export default function Home() {
   return (
-    <main className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth">
+    <main className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth pb-[60px]">
       
       {/* Section: Hero */}
-      <section className="h-screen relative flex flex-col font-[montserrat] items-center justify-center m-2">
+      <section className="min-h-screen pt-20 relative flex flex-col font-[montserrat] items-center justify-center">
 
         <div className="relative inline-block mb-6">
           {/* Back layer */}

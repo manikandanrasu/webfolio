@@ -22,14 +22,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} antialiased relative`}>
+      <body className={`${montserrat.variable} antialiased`}>
         <div
           className="fixed top-0 left-0 w-full h-full -z-10 bg-cover bg-center"
           style={{ backgroundImage: "url(/bg-portfolio.jpeg)" }}
         />
         <Navbar />
         <Navigation />
-        <main className="relative z-10 overflow-y-auto scroll-smooth">
+        <main className="relative z-10 scroll-smooth">
           {children}
         </main>
       </body>
