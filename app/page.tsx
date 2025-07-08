@@ -1,7 +1,5 @@
 "use client"
 
-import Link from "next/link";
-import TypingAnimation from "./components/TypingAnimation";
 import TextWipeAnimation from "./components/TextWipeAnimation";
 
 export default function Home() {
@@ -59,9 +57,9 @@ export default function Home() {
 
         <div className="flex w-full font-[montserrat] items-center px-[10%] mb-8">
           <p className="text-sm md:text-xl leading-relaxed text-center text-gray-800">
-            Hello, I'm Mani, a passionate Python backend developer with a strong focus on building scalable, secure, and efficient
-            server-side applications. If you're looking for a impactful backend solution, feel free to email me. if we are a good fit, 
-            i'll provide a time and cost estimate for your project.
+            Hello, I&apos;m Mani, a passionate Python backend developer with a strong focus on building scalable, secure, and efficient
+            server-side applications. If you&apos;re looking for a impactful backend solution, feel free to email me. if we are a good fit, 
+            i&apos;ll provide a time and cost estimate for your project.
           </p>
         </div>
 
