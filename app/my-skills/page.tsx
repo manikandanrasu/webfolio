@@ -43,7 +43,7 @@ const Page = () => {
         </div>
 
         {/* Desktop layer */}
-        <div className="flex flex-col justify-center items-center gap-4 mt-8 md:mt-8 sm:hidden md:block">
+        <div className="flex-col justify-center items-center gap-4 mt-8 md:mt-8 hidden lg:flex">
           <div className="relative inline-block mb-4">
             {/* Back layer */}
             <h1 className="text-7xl font-[montserrat] text-normal whitespace-nowrap text-[#ebcb9c] tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] /* responsive size */ text-faded select-none absolute top-[10px] left-[12px]  pointer-events-none">
