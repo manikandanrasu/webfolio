@@ -14,24 +14,24 @@ const Page = () => {
         <div className="flex flex-col justify-center items-center gap-4 mt-8 md:mt-8 md:hidden">
           <div className="relative inline-block mb-4">
             {/* Back layer */}
-            <h1 className="text-5xl md:text-6xl font-[montserrat] text-normal whitespace-nowrap text-[#ebcb9c] tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] /* responsive size */ text-faded select-none absolute top-[10px] left-[12px]  pointer-events-none">
+            <h1 className="text-[45px] md:text-6xl font-[montserrat] text-normal whitespace-nowrap text-[#ebcb9c] tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] /* responsive size */ text-faded select-none absolute top-[10px] left-[12px]  pointer-events-none">
               SKILLS &
             </h1>
 
             {/* Front layer */}
-            <h1 className="text-5xl md:text-6xl font-[montserrat] text-normal text-black whitespace-nowrap tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] relative">
+            <h1 className="text-[45px] md:text-6xl font-[montserrat] text-normal text-black whitespace-nowrap tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] relative">
               SKILLS &
             </h1>
           </div>
 
           <div className="relative inline-block mb-4">
             {/* Back layer */}
-            <h1 className="text-5xl md:text-6xl font-[montserrat] text-normal whitespace-nowrap text-[#ebcb9c] tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] /* responsive size */ text-faded select-none absolute top-[10px] left-[12px]  pointer-events-none">
+            <h1 className="text-[45px] md:text-6xl font-[montserrat] text-normal whitespace-nowrap text-[#ebcb9c] tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] /* responsive size */ text-faded select-none absolute top-[10px] left-[12px]  pointer-events-none">
               TECHNOLOGIES
             </h1>
 
             {/* Front layer */}
-            <h1 className="text-5xl md:text-6xl font-[montserrat] text-normal text-black whitespace-nowrap tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] relative">
+            <h1 className="text-[45px] md:text-6xl font-[montserrat] text-normal text-black whitespace-nowrap tracking-wide text-[clamp(2.8rem, 8vw, 5rem)] relative">
               TECHNOLOGIES
             </h1>
           </div>
