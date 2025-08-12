@@ -4,17 +4,17 @@ import { Social } from '../constants/index.js'
 
 const Contact = () => {
   return (
-    <div className='relative min-h-screen w-full flex flex-col justify-center items-center pt-24 z-[10]'>
-        <div className='max-w-[92%] flex flex-col justify-center items-center'>
+    <div className='relative h-screen flex flex-col justify-center items-center z-[10]'>
+        <div className='flex flex-col justify-center items-center mx-4'>
             <div 
-                className='text-4xl font-normal tracking-wider uppercase mb-8'
+                className='text-4xl md:text-7xl font-normal tracking-wider uppercase mb-8'
                 style = {{
                     textShadow: '10px 12px 0 #ebcb9c'
                 }}    
             >
                  Get in touch
             </div>
-            <p className='text-center mb-4'>Got a project, idea, or question? Let&apos;s talk and make it happen.</p>
+            <p className='text-center text-[#4a4a4a] mb-4'>Got a project, idea, or question? Let&apos;s talk and make it happen.</p>
             <div className='w-full flex flex-col gap-4'>
                 {Social.map((social, index) => (
                     <ContactCard 
